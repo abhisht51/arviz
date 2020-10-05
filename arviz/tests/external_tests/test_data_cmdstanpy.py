@@ -1,4 +1,4 @@
-# pylint: disable=redefined-outer-name
+# pylint: disable=redefined-outer-name, no-member
 import os
 import sys
 from glob import glob
