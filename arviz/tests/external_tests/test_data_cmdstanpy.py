@@ -148,6 +148,14 @@ class TestDataCmdStanPy:
             "log_likelihood": ["log_lik"],
             "prior": ["theta"],
         }
+        print(inference_data1)
+        print(inference_data1.posterior)
+        print(inference_data1.predictions)
+        print(inference_data1.observed_data)
+        print(inference_data1.constant_data)
+        print(inference_data1.predictions_constant_data)
+        print(inference_data1.log_likelihood)
+        print(inference_data1.prior)
         fails = check_multiple_attrs(test_dict, inference_data1)
         assert not fails
         # inference_data 2
